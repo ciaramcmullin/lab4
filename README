@@ -1,0 +1,11 @@
+For Lab 4, I have submitted three classes: DemandPaging, Frame, and Process.
+
+The DemandPaging class is the main class. It reads the input and simulates demand paging and the
+replacement algorithms.
+The Process class creates process objects that are stored in a process list. The Frame class
+creates frames/pages that are used to populate a frameTable array.
+
+I wrote these scripts on IntelliJ. To run this program please open project on IntelliJ or
+another text editor like Sublime. In the terminal, type: javac DemandPaging.java. The type java Banker insert-input-here.
+The input must be valid or else the the exception will be caught and my program will print an error
+messaged and exit.

@@ -1,0 +1,12 @@
+
+Demand Paging: fetch pages from disk to memory when they are referenced; allow the total memory requirements of all loaded
+jobs to exceed the size of physical memory;
+
+Page table entry contains the frame number if the page is loaded
+   - when a reference is made to a non loaded page, choose a free frame or create one, evict a page frame
+   - copy the referenced page from disk to free frame
+   - update the page table entry to show it is loaded
+   - do standard paging address translation
+PTE Structure: frame number (page), valid bit- indicates if page is loaded, modified bit- page usuage tracker, used bit- referenced recently,
+protection bits- type of access,
+
